@@ -24,8 +24,8 @@ export default function Head() {
               justifyContent: "space-around",
           }}>
           {
-             ["Request Quote", "Book Shipment"].map(function(t){
-                return  <Btn title={t} />
+             ["Request Quote", "Book Shipment"].map(function(t, i){
+                return  <Btn key={i} title={t} />
             })
           }
           </div>
