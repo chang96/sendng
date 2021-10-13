@@ -1,0 +1,32 @@
+import Dim from "./dimensions";
+import RadioAndDetails from "./radio";
+import Selections from "./selections";
+
+export default function CargoDetails() {
+    let rowed = {display: "flex", flexDirection:"row"}  
+    return (
+      <div style={{
+          border:"1px solid black"
+
+      }}>
+         <div style={{
+             ...rowed,
+             width:"100%",
+             justifyContent:"space-between"
+         }} >
+             <div>Cargo Details</div>
+             <div><RadioAndDetails/></div>
+         </div>
+
+        <div style={{display:"flex", flexDirection:"row", width:"100%",}}>
+         <Selections/>
+
+        </div>
+
+        <div style={{display:"flex", flexDirection:"row"}}> 
+          <Dim />
+        </div>
+      </div>
+    );
+  }
+  

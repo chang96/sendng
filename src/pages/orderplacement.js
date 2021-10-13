@@ -1,3 +1,4 @@
+import CargoDetails from "../components/CargoDetails/cargodetails";
 import Head from "../components/head"
 import PathDetails from "../components/pathdetails/pathdetails";
 import Radio from "../components/radio"
@@ -9,6 +10,7 @@ function OrderPlacement() {
         <Radio />
         <Services/>
         <PathDetails/>
+        <CargoDetails />
     </div>
   );
 }
