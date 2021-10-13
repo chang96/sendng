@@ -1,4 +1,5 @@
 import Head from "../components/head"
+import PathDetails from "../components/pathdetails/pathdetails";
 import Radio from "../components/radio"
 import Services from "../components/services";
 function OrderPlacement() {
@@ -7,6 +8,7 @@ function OrderPlacement() {
         <Head />
         <Radio />
         <Services/>
+        <PathDetails/>
     </div>
   );
 }
