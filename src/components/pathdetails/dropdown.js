@@ -10,7 +10,6 @@ export default function Dropdown() {
           height:'30px',
           marginTop:"22px",
           paddingTop:"-2px",
-          border:"1px solid ",
           width:"30%",
           backgroundColor:"#f3f3f3"
       }}>

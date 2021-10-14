@@ -38,7 +38,7 @@ function Dimensions({icon, type, placeholder, label}) {
         <div style={{
             display:"flex",
             flexDirection:"row",
-            width:"50%"
+            width:"40%"
         }} >
             {inputDetails.map(function(det, i){
                 return <Dimensions key={i} label= {det.label} placeholder={det.placeholder} icon={det.icon}/>

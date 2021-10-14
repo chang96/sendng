@@ -5,9 +5,8 @@ export default function DateInput({icon, type}) {
       <div style ={{
           display:"flex",
           flexDirection:"row",
-          height:'30px',
+          height:'35px',
           marginTop:"22px",
-          border:"1px solid ",
           backgroundColor:"#f3f3f3",
           width:"30%"
       }}>

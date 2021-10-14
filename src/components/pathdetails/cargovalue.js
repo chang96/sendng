@@ -7,7 +7,6 @@ function XCargoValue({icon, type, placeholder, label}) {
           flexDirection:"row",
           height:'30px',
           marginTop:"22px",
-          border:"1px solid ",
           width:"100%",
           backgroundColor:"#f3f3f3"
       }}>

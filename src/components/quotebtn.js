@@ -6,7 +6,7 @@ export default function Btn({title, filled, size, bordered}) {
           backgroundColor:"",
           marginRight:"1%",
           marginTop:"20px",
-          height:"auto",
+          width:"45%"
       }}>
           <button style={{
           backgroundColor:filled,
@@ -14,7 +14,8 @@ export default function Btn({title, filled, size, bordered}) {
           color:"white",
           border: bordered || "none",
           outline:"none",
-          borderRadius:"5px"
+          borderRadius:"5px",
+          width:"100%"
           }} >{title}</button>
       </div>
     );

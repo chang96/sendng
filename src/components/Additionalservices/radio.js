@@ -9,11 +9,11 @@ import { useState } from "react"
     let columned = {display: "flex", flexDirection:"column"}
     return (
       <div onClick={() => handleClick()} style= {{
-        backgroundColor: value === false ? "lightgray" : "blue",
+        backgroundColor: value === false ? "#EEEFF4" : "#0546A9",
         border:"1px solid black",
         height: "18px",
         width: "30px",
-        borderRadius:"30%"
+        borderRadius:"17px"
       }}>
         <div style={{
             border:"1px solid black",
@@ -34,7 +34,7 @@ function RadioAndDetailsBox({keypoint="Dangerous Cargo", example="(ex Chemicals,
     return (
           <div style={{...rowed, justifyContent:"space-between", width:"50%", marginTop:"20px"}}>
               <div style={{width:"10%", marginRight:"15px"}}><Radio /></div>
-              <div style={{...columned, marginTop:"-23px", width:"90%"}}><h4>{keypoint}</h4> <p style={{marginTop:"-20px", color:"#979899"}}>{example}</p></div>
+              <div style={{...columned, marginTop:"-23px", width:"90%"}}><h4 style={{color:"#7a7b7d"}}>{keypoint}</h4> <p style={{marginTop:"-20px", color:"#979899"}}>{example}</p></div>
           </div>
       )
   }

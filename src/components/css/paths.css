@@ -1,1 +1,4 @@
-::-webkit-input-placeholder {color:black;} 
+body {
+    background-color: #F1F2F6;
+}
+.path::-webkit-input-placeholder {color:black;} 

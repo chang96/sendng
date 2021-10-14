@@ -17,7 +17,7 @@ function BookingDetails() {
       <div style={{
        
       }}>
-          <h3>New Bookings</h3>
+          <h3 style={{color:"#7a7b7d"}}>New Booking</h3>
           <p style={{color:"#979899"}}>Fill in the information below to get a quote or create a new booking </p>
       </div>
     );

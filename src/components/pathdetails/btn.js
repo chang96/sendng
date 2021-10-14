@@ -20,7 +20,6 @@ export default function ImExBtn(){
         <div style={{
             display:"flex",
             flexDirection:"row",
-            justifyContent: "space-around",
             width:"20%"
         }} >
             {names.map(function(name){

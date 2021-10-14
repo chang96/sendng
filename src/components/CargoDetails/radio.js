@@ -1,7 +1,7 @@
 import { useState } from "react"
 
  function Radio({title, filled, size}) {
-    let [value, setValue] = useState(false)
+    let [value, setValue] = useState(true)
     const handleClick = function(){
         setValue(!value)
     }
@@ -10,14 +10,14 @@ import { useState } from "react"
       <div onClick={() => handleClick()} style= {{
         backgroundColor: value === false ? "lightgray" : "blue",
         border:"1px solid black",
-        height: "15px",
+        height: "18px",
         width: "30px",
-        borderRadius:"30%"
+        borderRadius:"17px"
       }}>
         <div style={{
             border:"1px solid black",
-            height: "14px",
-            width: "14px",
+            height: "17px",
+            width: "17px",
             borderRadius:"100%",
             backgroundColor:"white",
             float: value === false? "left" : "right",
@@ -32,7 +32,7 @@ import { useState } from "react"
     return (
           <div style={{...rowed, justifyContent:"space-between", width:"100%"}}>
               <div><Radio /></div>
-              <div style={{...rowed, marginTop:"-23px"}}><h4>{keypoint}</h4> <p style={{marginTop:"23px"}}>{example}</p></div>
+              <div style={{...rowed, marginTop:"-23px", color:"#8C8C8C"}}><h4>{keypoint}</h4> <p style={{marginTop:"23px"}}>{example}</p></div>
           </div>
       )
   }

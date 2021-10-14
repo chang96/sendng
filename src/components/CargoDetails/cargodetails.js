@@ -6,7 +6,9 @@ export default function CargoDetails() {
     let rowed = {display: "flex", flexDirection:"row"}  
     return (
       <div style={{
-          padding:"5%"
+          padding:"5%",
+          paddingTop:"1%",
+          paddingBottom:"3%"
 
       }}>
          <div style={{
@@ -14,7 +16,8 @@ export default function CargoDetails() {
              width:"100%",
              justifyContent:"space-between"
          }} >
-             <div>Cargo Details</div>
+             <div><h4 style={{color:"#7a7b7d"}}>Cargo Details</h4></div>
+             
              <div><RadioAndDetails/></div>
          </div>
 

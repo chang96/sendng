@@ -1,15 +1,15 @@
 import pin from "../../assets/pin.png"
 import "../css/paths.css"
 function XToFro({icon, type, placeholder, label}) {
+  
     return (
       <div style ={{
           display:"flex",
           flexDirection:"row",
           height:'30px',
           marginTop:"22px",
-          marginLeft: "5%",
-          border:"1px solid ",
-          width:"100%",
+          marginLeft: "0%",
+          width:"45%",
           backgroundColor:"#f3f3f3"
       }}>
          <div style={{
@@ -21,7 +21,7 @@ function XToFro({icon, type, placeholder, label}) {
          }}>
          
          <img width="20px" height="20px" src={icon}/> {label}
-         </div> <input placeholder={placeholder} type={type} style={{
+         </div> <input className="path" placeholder={placeholder} type={type} style={{
               width:"100%",
               outline:"none",
               border:"none",
@@ -34,6 +34,8 @@ function XToFro({icon, type, placeholder, label}) {
 
   
   export default function ToFro(){
+    let mql = window.matchMedia('(max-width: 900px)')
+    let w = mql.matches === true? "70%": "80%"
     const inputDetails = [
         {placeholder:"City or Port", label:"From", icon:pin},
         {placeholder:"City or Port", label:"To", icon:pin},
@@ -43,7 +45,8 @@ function XToFro({icon, type, placeholder, label}) {
         <div style={{
             display:"flex",
             flexDirection:"row",
-            width:"80%"
+            width:w,
+            justifyContent:"space-around"
         }} >
             {inputDetails.map(function(det, i){
                 return <XToFro key={i} label= {det.label} placeholder={det.placeholder} icon={det.icon}/>

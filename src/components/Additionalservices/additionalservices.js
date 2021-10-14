@@ -6,7 +6,9 @@ export default function AdditionalServices() {
     let rowed = {display: "flex", flexDirection:"row"}  
     return (
       <div style={{
-          padding:"5%"
+          padding:"5%",
+          paddingTop:"1%",
+          paddingBottom:"2%"
       }}>
          <div style={{
              width:"100%",

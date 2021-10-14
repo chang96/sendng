@@ -10,8 +10,7 @@ export default function Selections() {
     return (
       <div style= {{...rowed,
         backgroundColor: "lightgray",
-        height: "40px",
-        width: "50%",
+        width: "40%",
         borderRadius:"5px",
         border:"none",
         padding:"3px",
@@ -24,7 +23,6 @@ export default function Selections() {
            onClick={() => handleClick(j)}
             style={{
                 width:"50%",
-                height:"23px",
                 backgroundColor: selected===j? "white" : "lightgrey",
                 color:selected === j ? "blue" : "black",
                 padding:"2%"
