@@ -3,7 +3,7 @@ import Head from "./head";
 
 
 export default function AdditionalServices() {
-    let rowed = {display: "flex", flexDirection:"row"}  
+    // let rowed = {display: "flex", flexDirection:"row"}  
     return (
       <div style={{
           padding:"5%",

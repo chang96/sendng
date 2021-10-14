@@ -5,7 +5,7 @@ import { useState } from "react"
     const handleClick = function(){
         setValue(!value)
     }
-    let rowed = {display: "flex", flexDirection:"row"}
+    // let rowed = {display: "flex", flexDirection:"row"}
     return (
       <div onClick={() => handleClick()} style= {{
         backgroundColor: value === false ? "lightgray" : "blue",

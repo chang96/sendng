@@ -3,8 +3,11 @@ import {useState} from "react";
 export default function Dropdown() {
     const options = [{option: "Incoterms"}]
     let [selected, setSelected] = useState(options[0].option)
+    const handlechange= function(){
+      setSelected()
+    }
     return (
-      <div style ={{
+      <div onClick={()=> handlechange()} style ={{
           display:"flex",
           flexDirection:"row",
           height:'30px',

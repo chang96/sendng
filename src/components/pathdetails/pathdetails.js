@@ -11,7 +11,7 @@ export default function PathDetails({title, filled, size}) {
           paddingTop:"3%",
           paddingBottom:"3%"
       }}>
-         <div style={{margin:"0%"}}><img width="20px" height="20px" src={info} /></div>
+         <div style={{margin:"0%"}}><img alt="" width="20px" height="20px" src={info} /></div>
         <div style={{display:"flex", flexDirection:"row",justifyContent:"space-between"}}>
             <ImExBtn />
             <ToFro />

@@ -5,8 +5,8 @@ import { useState } from "react"
     const handleClick = function(){
         setValue(!value)
     }
-    let rowed = {display: "flex", flexDirection:"row"}
-    let columned = {display: "flex", flexDirection:"column"}
+    // let rowed = {display: "flex", flexDirection:"row"}
+    // let columned = {display: "flex", flexDirection:"column"}
     return (
       <div onClick={() => handleClick()} style= {{
         backgroundColor: value === false ? "#EEEFF4" : "#0546A9",

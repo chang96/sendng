@@ -16,7 +16,7 @@ export default function Search() {
               outline:"none",
               border:"none",
               backgroundColor:"#3a6bb8",
-          }} /> <span style={{backgroundColor:"#3a6bb8", padding:"4px"}}><img  width="20px" height="20px" src={searchicon} /></span>
+          }} /> <span style={{backgroundColor:"#3a6bb8", padding:"4px"}}><img alt="" width="20px" height="20px" src={searchicon} /></span>
       </div>
     );
   }

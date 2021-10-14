@@ -5,7 +5,7 @@ function Back() {
        paddingTop:"15px",
        marginRight:"5%"
       }}>
-         <img width="30px" height="14px" src={back} />
+         <img alt="" width="30px" height="14px" src={back} />
       </div>
     );
   }

@@ -20,7 +20,7 @@ function XToFro({icon, type, placeholder, label}) {
               
          }}>
          
-         <img width="20px" height="20px" src={icon}/> {label}
+         <img alt="" width="20px" height="20px" src={icon}/> {label}
          </div> <input className="path" placeholder={placeholder} type={type} style={{
               width:"100%",
               outline:"none",
