@@ -7,10 +7,14 @@ export default function Services() {
     }
     return (
       <div style={{
-        height:"120px",
-        border:"1px solid black"
+        height:"150px",
+        padding:"5%",
       }}>
-          <div>Select a service</div>
+          <div style={{
+              margin:"0%",
+          }}>
+              <h4 style={{color:"#3b3b3b"}}>Select a service</h4>
+          </div>
           <div style ={{
               display:"flex",
               flexDirection:"row",
@@ -20,16 +24,18 @@ export default function Services() {
               return <div key={i} onClick={()=> handleSelected(i)}
                style={{
                   border:"1px solid black",
-                  width:"150px",
+                  width:"20%",
                   display:"flex",
                   flexDirection:"row",
                   justifyContent:"space-between",
-                  backgroundColor: selected === i? "blue" : ""
+                  backgroundColor: selected === i? "#0746a7" : "",
+                  color: selected===i? "white":"#81868c",
+                  paddingLeft:"2%"
               }}>
-                  <div style={{width:"80px"}}>
+                  <div style={{width:"80%", marginTop:"7%"}}>
                      {service.service}
                   </div>
-                  <div>
+                  <div style={{fontSize:"50px"}}>
                   {service.icon}
                   </div>
               </div>

@@ -3,20 +3,20 @@ import Dropdown from "./dropdown";
 import ToFro from "./tofro";
 import DateInput from "./date";
 import CargoValue from "./cargovalue";
+import info from "../../assets/info.png"
 export default function PathDetails({title, filled, size}) {
     return (
       <div style={{
-          border:"1px solid black"
-
+          padding:"5%"
       }}>
-         <div>icon</div>
+         <div style={{margin:"0%"}}><img width="20px" height="20px" src={info} /></div>
         <div style={{display:"flex", flexDirection:"row"}}>
             <ImExBtn />
             <ToFro />
 
         </div>
 
-        <div style={{display:"flex", flexDirection:"row"}}> 
+        <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}> 
             <DateInput />
             <Dropdown />
             <CargoValue />

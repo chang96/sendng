@@ -4,12 +4,12 @@
     return (
       <div style={{
           backgroundColor:filled,
-          width: "120px",
-          marginRight:"1%",
-          marginTop:"20px"
+          width: "110px",
+          marginRight:"0%",
+          marginTop:"20px",
 
       }}>
-          <button>{title}</button>
+          <button style={{width:"100%", height:"35px", border:"1px solid black", outline:"none", backgroundColor:"white"}}>{title}</button>
       </div>
     );
   }

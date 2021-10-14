@@ -10,7 +10,7 @@ export default function Selections() {
     return (
       <div style= {{...rowed,
         backgroundColor: "lightgray",
-        height: "45px",
+        height: "40px",
         width: "50%",
         borderRadius:"5px",
         border:"none",

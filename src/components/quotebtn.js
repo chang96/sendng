@@ -1,15 +1,21 @@
 
 
-export default function Btn({title, filled, size}) {
+export default function Btn({title, filled, size, bordered}) {
     return (
       <div style={{
-          backgroundColor:filled,
-          width: "120px",
+          backgroundColor:"",
           marginRight:"1%",
-          marginTop:"20px"
-
+          marginTop:"20px",
+          height:"auto",
       }}>
-          <button>{title}</button>
+          <button style={{
+          backgroundColor:filled,
+          height:"30px",
+          color:"white",
+          border: bordered || "none",
+          outline:"none",
+          borderRadius:"5px"
+          }} >{title}</button>
       </div>
     );
   }

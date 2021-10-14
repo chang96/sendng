@@ -5,7 +5,7 @@ function Dimensions({icon, type, placeholder, label}) {
       <div style ={{
           display:"flex",
           flexDirection:"row",
-          height:'30px',
+          height:'55px',
           marginTop:"22px",
           border:"1px solid ",
           width:"100%"
@@ -17,8 +17,11 @@ function Dimensions({icon, type, placeholder, label}) {
          }}>{label}</div> <input placeholder={placeholder} type={type} style={{
               width:"60%",
               outline:"none",
-              border:"none"
-          }}  /> {icon} 
+              border:"none", 
+          }}  /> 
+          <div style={{marginTop:"15px"}}>
+              {icon} 
+           </div>
       </div>
     );
   }

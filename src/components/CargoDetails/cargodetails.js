@@ -6,7 +6,7 @@ export default function CargoDetails() {
     let rowed = {display: "flex", flexDirection:"row"}  
     return (
       <div style={{
-          border:"1px solid black"
+          padding:"5%"
 
       }}>
          <div style={{

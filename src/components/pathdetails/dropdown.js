@@ -11,7 +11,8 @@ export default function Dropdown() {
           marginTop:"22px",
           paddingTop:"-2px",
           border:"1px solid ",
-          width:"100%"
+          width:"30%",
+          backgroundColor:"#f3f3f3"
       }}>
          <div style ={{
           display:"flex",
