@@ -1,4 +1,5 @@
 import AdditionalServices from "../components/Additionalservices/additionalservices";
+import Bookings from "../components/bookings/bookings";
 import CargoDetails from "../components/CargoDetails/cargodetails";
 import Head from "../components/head"
 import PathDetails from "../components/pathdetails/pathdetails";
@@ -11,10 +12,11 @@ function OrderPlacement() {
   return (
     <div>
         <div style={{margin:"0px"}}><Head /></div>
-        <div style={{...card,margin:"7%"}}><Services/></div>
-        <div style={{...card,margin:"7%"}}><PathDetails/></div>
-        <div style={{...card,margin:"7%"}}><CargoDetails /></div>
-        <div style={{...card,margin:"7%"}}><AdditionalServices /></div>
+        <div style={{margin:"2%"}}><Bookings /></div>
+        <div style={{...card,margin:"5%"}}><Services/></div>
+        <div style={{...card,margin:"5%"}}><PathDetails/></div>
+        <div style={{...card,margin:"5%"}}><CargoDetails /></div>
+        <div style={{...card,margin:"5%"}}><AdditionalServices /></div>
     </div>
   );
 }
